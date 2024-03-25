@@ -1,0 +1,64 @@
+.home-container h1{
+  text-align: center;
+  -webkit-text-stroke: black;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  font-size: 3rem;
+}
+
+.home-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+.home-btn button {
+  margin: auto;
+  width: 100px;
+  height: 35px;  
+}
+.home-btn button a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.form-div {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.btn:focus, .form-control:focus, .form-select:focus{
+  border-color: #cacaca;
+  box-shadow: none !important;
+}
+
+.cart-remove-btn:hover {
+  cursor: pointer;
+}
+
+.globalsearch-add-to-cart:hover {
+  cursor: pointer;
+}
+
+/* .form-control[type = "file"] {
+  background-color: #f14d54;
+} */
+
+/* .form-label-file::after {
+  background-color: #f14d54;
+  color: #fff;
+} */
+/* .MuiPagination-root  button:focus {
+    background-color: #f14d54 !important;
+ } */
